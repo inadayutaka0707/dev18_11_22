@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="loginHeader">
+            <h1>新規登録</h1>
+        </div>
+        <div class="loginMain">
+            <div class="loginMainIn">
+                <div class="loginMail">
+                    <p>ユーザー名入力</p>
+                    <input type="text" id="name" placeholder="ログイン名">
+                </div>
+                <div class="loginPass">
+                    <p>パスワード入力</p>
+                    <input type="password" id="pass" placeholder="パスワード" minlength="6" required class="color">
+                </div>
+                <div class="loginLogin1">
+                    <a href="index.html"><button id="button" onclick="return registration()">登録</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="loginBottom">
+            
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

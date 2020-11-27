@@ -1,0 +1,118 @@
+body {
+    font-family: serif;
+    background-color: whitesmoke;
+}
+
+button, input{
+    font-family: serif;
+    font-size: 15px;
+}
+
+.loginHeader{
+    width: 100%;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.loginHeader h1{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.loginMain{
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.loginMainIn{
+    padding: 30px;
+}
+
+.loginMail{
+    padding-bottom: 30px;
+}
+
+.loginMail input{
+    width: 400px;
+    height: 30px;
+}
+
+.loginPass{
+    padding-bottom: 30px;
+}
+
+.loginPass input{
+    width: 400px;
+    height: 30px;
+}
+
+.loginSave{
+    float: left;
+    width: 200px;
+    padding-top: 40px;
+}
+
+.loginSave input,p{
+    float: left;
+    padding: 5px 0;
+}
+
+.loginLogin{
+    float: right;
+    width: 200px;
+    padding-top: 40px;
+}
+
+.loginLogin button{
+    width: 150px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 3px;
+    background-color: orange;
+    color: gray;
+    font-weight: bold;
+}
+
+.check{
+    margin: 8px 8px 8px 0;
+    display: block;
+}
+
+.loginLogin1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.loginLogin1 button{
+    width: 150px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 3px;
+    background-color: orange;
+    color: gray;
+    font-weight: bold;
+}
+
+.newRegistration{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+}
+
+.newRegistration p{
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 3px;
+}
+
